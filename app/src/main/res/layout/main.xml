@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<com.worldopengles.zhengzha.Game.GameRun
+		android:id="@+id/game"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_gravity="bottom">
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_height="50dp"
+			android:layout_width="50dp"
+			android:text="↑"
+			android:layout_marginLeft="75dp"
+			android:id="@+id/s"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal">
+
+			<Button
+				android:layout_height="50dp"
+				android:layout_width="50dp"
+				android:text="←"
+				android:layout_marginLeft="20dp"
+				android:id="@+id/z"/>
+
+			<Button
+				android:layout_height="50dp"
+				android:layout_width="50dp"
+				android:text="→"
+				android:layout_marginLeft="60dp"
+				android:id="@+id/y"/>
+
+		</LinearLayout>
+
+		<Button
+			android:layout_height="50dp"
+			android:layout_width="50dp"
+			android:text="↓"
+			android:layout_marginLeft="75dp"
+			android:id="@+id/x"/>
+
+	</LinearLayout>
+
+</FrameLayout>
+
+
